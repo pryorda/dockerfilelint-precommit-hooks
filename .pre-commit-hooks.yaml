@@ -1,0 +1,6 @@
+- id: dockerfilelint
+  name: Dockerfile linter
+  entry: dockerfilelint
+  language: node
+  additional_dependencies: [dockerfilelint]
+  files: Dockerfile.*
