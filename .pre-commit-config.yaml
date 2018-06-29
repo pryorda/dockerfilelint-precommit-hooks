@@ -31,9 +31,7 @@ repos:
     stages: [commit]
     args:
       - --autofix
-  - id: flake8
-    stages: [commit]
-- repo: https://github.com/pryorda/dockerfilelint-precommit-hook
+- repo: https://github.com/pryorda/dockerfilelint-precommit-hooks
   sha: master
   hooks:
   - id: dockerfilelint
